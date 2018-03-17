@@ -26,7 +26,7 @@ python solver.py --mode test
 and just as above mentioned, you can indicate your test data
 
 ## Others
-Thanks the following projects and these projects help me a lot:
+Thanks for the projects below, and these projects help me a lot:
 
 * https://github.com/tegg89/SRCNN-Tensorflow
 * http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html
