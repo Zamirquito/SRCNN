@@ -112,6 +112,7 @@ class SRCNN:
         feed_dict = {self.x: data, self.y: label}
         with tf.device('/gpu:0'):
             err = self.sess.run([self.loss], feed_dict=feed_dict)
+        self.sess.close()
         return err
 
     def apply(self, image_path):
